@@ -1,0 +1,22 @@
+schema: '2.0'
+stages:
+  clean_data:
+    cmd: python scripts/run_data_cleaning.py
+    deps:
+    - path: data/raw/MachineLearningRating_v3.txt
+      hash: md5
+      md5: f6b7009b68ae21372b7deca9307fbb23
+      size: 529363713
+    - path: scripts/data_loader.py
+      hash: md5
+      md5: 74aaed02d3bae9614f893ce3f9a5f615
+      size: 13120
+    - path: scripts/run_data_cleaning.py
+      hash: md5
+      md5: 27c1295f3d897f38d004c453db38a3a8
+      size: 398
+    outs:
+    - path: data/processed/clean_data.csv
+      hash: md5
+      md5: 96d95fe880141a65c959cba8575c64d2
+      size: 422496389

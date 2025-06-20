@@ -1,0 +1,8 @@
+test,group_a,group_b,metric,p_value,p_value_adjusted
+Chi-Squared,Gauteng,KwaZulu-Natal,claim_frequency,0.0030396165190099927,0.004255463126613989
+T-Test,Gauteng,KwaZulu-Natal,claim_severity,0.0003196226344138612,0.0005593396102242571
+Chi-Squared,High Risk,Low Risk,claim_frequency,1.619540374894036e-14,1.1336782624258253e-13
+T-Test,High Risk,Low Risk,claim_severity,0.8328832499418416,0.8380487624521464
+T-Test,High Risk,Low Risk,margin,3.9701039632059656e-07,1.3895363871220881e-06
+Chi-Squared,Female,Male,claim_frequency,4.210239708457115e-05,9.823892653066602e-05
+T-Test,Female,Male,claim_severity,0.8380487624521464,0.8380487624521464

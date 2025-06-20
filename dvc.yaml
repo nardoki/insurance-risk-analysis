@@ -1,0 +1,9 @@
+stages:
+     clean_data:
+       cmd: python scripts/run_data_cleaning.py
+       deps:
+         - data/raw/MachineLearningRating_v3.txt
+         - scripts/data_loader.py
+         - scripts/run_data_cleaning.py
+       outs:
+         - data/processed/clean_data.csv

@@ -1,0 +1,11 @@
+Feature,Mean_SHAP
+suminsured,0.917814042087455
+covertype_Windscreen,0.30456809354564757
+postalcode_encoded,0.1957006237084788
+postalcode,0.10478954115054513
+cubiccapacity,0.0723538070420618
+registrationyear,0.04761477148631821
+covertype_Own Damage,0.041919247960264326
+covertype_Income Protector,0.019505648408376146
+vehicletype_Passenger Vehicle,0.0177237451862311
+province_Gauteng,0.010840409624623137
